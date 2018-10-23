@@ -1,4 +1,4 @@
-package com.tzrough.sort;
+package com.tzrough.sort.common;
 
 import java.util.Random;
 

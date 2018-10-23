@@ -6,8 +6,6 @@ public class BubbleSort extends Sort
 	// 升序
 	public void sort(int[] a)
 	{
-		startTime = System.currentTimeMillis();
-		
 		boolean flag = false;
 
 		int size = a.length;
@@ -29,12 +27,6 @@ public class BubbleSort extends Sort
 				break;
 		}
 		
-		endTime = System.currentTimeMillis();
-		
-		printRunTime(size);
-		
 	}
-	
-	
 	
 }

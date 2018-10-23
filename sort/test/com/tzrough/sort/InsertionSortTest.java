@@ -7,13 +7,12 @@ import com.tzrough.sort.common.ArrayGenerator;
 import com.tzrough.sort.common.BasicSort;
 import com.tzrough.sort.constant.DataAmount;
 
-public class BubbleSortTest extends BasicSort
+public class InsertionSortTest extends BasicSort
 {
-	
 	@Before
 	public void init() 
 	{
-		this.sortType = new BubbleSort();
+		this.sortType = new InsertionSort();
 	}
 	
 	@Test
@@ -32,6 +31,4 @@ public class BubbleSortTest extends BasicSort
 		super.sortAndPrintRunTime(ArrayGenerator.generate(DataAmount.tenM));
 	}
 
-	
-	
 }

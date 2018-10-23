@@ -2,7 +2,7 @@ package com.tzrough.sort.constant;
 
 public final class DataAmount
 {
-
+	
 	public static final int oneK = 1000;
 	
 	public static final int tenK = 10000;
